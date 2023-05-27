@@ -1,0 +1,85 @@
+/* Typography */
+html {
+    font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 300;
+    line-height: 18px;
+}
+
+/* Layout */
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    gap: 32px;
+}
+
+#features > div {
+    flex: 1;
+}
+
+img {
+    max-height: 300px;
+    width: auto;
+}
+
+main section {
+    padding: 60px 20px 0 20px;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #cf1212;
+}
+
+/* Zebra Striped Pattern */
+table.playlist tr:nth-child(even) {
+    background-color: #31257f;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #714343;
+    color: #4c7890;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #1a9d2d;
+}
+
+/* Ordered and Unordered List Styles */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+
